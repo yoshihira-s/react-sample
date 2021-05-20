@@ -16,6 +16,8 @@ const ApiFetch = () => {
     //ブラウザ起動時に1度だけAPIを呼び出すので、useEffectの第２引数に[]という風に空のリストを記述します。
   }, []);
 
+  console.log(posts);
+
   return (
     <div>
       <ul className="list-group list-group-flush">
